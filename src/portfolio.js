@@ -23,7 +23,7 @@ const greeting = {
   username: "Abdul Qadeer",
   title: "Hi all, I'm Abdul Qadeer",
   subTitle: emoji(
-    "A passionate Full Stack Software Engineer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I am a dedicated Full Stack Software Engineer  🚀 with a rich experience in developing web and mobile applications. My expertise spans across JavaScript, React.js, Node.js, React Native, and a variety of other innovative libraries and frameworks. I am passionate about crafting high-quality, efficient, and scalable software solutions. My commitment to continuous learning and improvement drives me to stay updated with the latest trends and technologies in the industry, ensuring that I can deliver the best results for every project I undertake."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -45,32 +45,35 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "Passionate Full Stack Developer Exploring Diverse Tech Stacks",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive front-end/user interfaces for web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Build Progressive Web Applications (PWA) using modern SPA frameworks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integrate third-party services and APIs such as Firebase, AWS, and Digital Ocean"
+    ),
+    emoji(
+      "⚡ Design and manage scalable backend infrastructures and databases"
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
+  /* Make sure to include the correct Font Awesome class names to view your icons
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -78,44 +81,45 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "React Native",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "Firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    // {
+    //   skillName: "AWS",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
+    // {
+    //   skillName: "Docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // },
+    {
+      skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "php",
-      fontAwesomeClassname: "fab fa-php"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Education Section
 
@@ -123,26 +127,30 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Virtual University",
-      logo: require("./assets/images/unnamed.png"),
-      subHeader: "Bachelor of Business Administration (BBA)",
-      duration: "January 2021 - April 2023",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
       schoolName: "Allama Iqbal Open University",
       logo: require("./assets/images/Allama_Iqbal_Open_University_logo.png"),
       subHeader: "Bachelor of Business Administration (BBA)",
       duration: "April 2023 - Present ",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      desc: "Ranked in the top 10% of the program. Studied courses in Software Engineering, Web Security, Operating Systems, and more.",
+      descBullets: [
+        "Achieved a top 10% ranking in the BBA program",
+        "Completed courses in Software Engineering, Web Security, and Operating Systems"
+      ]
+    },
+    {
+      schoolName: "Govt Superior Science College Karachi",
+      logo: require("./assets/images/superior.jfif"),
+      subHeader: "FSC Intermediate",
+      duration: "August 2019 - June 2021",
+      desc: "Focused on Pre-Engineering subjects, achieving high marks in Mathematics, Physics, and Chemistry. Actively participated in science fairs and technical workshops.",
+      descBullets: [
+        "Excelled in Pre-Engineering subjects with top grades",
+        "Engaged in extracurricular activities including science fairs and technical workshops"
+      ]
+    },
   ]
 };
+
 
 // Your top 3 proficient stacks/tech experience
 
@@ -158,6 +166,10 @@ const techStack = {
       progressPercentage: "80%"
     },
     {
+      Stack: "Mobile Development",
+      progressPercentage: "90%"
+    },
+    {
       Stack: "Programming",
       progressPercentage: "70%"
     }
@@ -168,35 +180,55 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Regex dot Private limited",
-      companylogo: require("./assets/images/1633713232367.jfif"),
-      date: "Febuary 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Software Engineer",
+      company: "Instant Solution Lab",
+      companylogo: require("./assets/images/1672573089601.jfif"),
+      date: "October 2023 – Present",
+      desc: "Leading the development and implementation of advanced web and mobile applications, ensuring optimal performance and user experience.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Architecting and developing scalable, high-performance software solutions",
+        "Mentoring junior engineers and fostering a culture of continuous improvement"
+      ]
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "Tech Kolachi",
+      companylogo: require("./assets/images/1630570088076.jfif"),
+      date: "June 2021 – June 2024",
+      desc: "Spearheaded multiple projects, driving innovation and efficiency in software development processes while collaborating with cross-functional teams.",
+      descBullets: [
+        "Designed and deployed RESTful APIs and microservices",
+        "Enhanced application performance, reducing load times by 30%"
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Regex dot Private Limited",
+      companylogo: require("./assets/images/1633713232367.jfif"),
+      date: "February 2023 – October 2023",
+      desc: "Developed robust software applications, focusing on reliability, maintainability, and scalability to meet the dynamic needs of the business.",
+      descBullets: [
+        "Implemented modern front-end technologies to improve user interfaces",
+        "Collaborated with product managers to define and execute product roadmaps"
       ]
     },
     {
       role: "JavaScript Developer",
       company: "Strugbits",
       companylogo: require("./assets/images/download.png"),
-      date: "January 2022 – Febuary 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "January 2022 – February 2023",
+      desc: "Specialized in building interactive, user-friendly web applications using JavaScript frameworks, contributing to several high-profile projects.",
+      descBullets: [
+        "Developed and maintained code for client-side applications",
+        "Participated in code reviews and provided constructive feedback"
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Saylani Welfare IT Mass Academy",
-      companylogo: require("./assets/images/1584706875103.jfif"),
-      date: "Oct 2021 – Jan 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -210,24 +242,36 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some Startups and Companies I Helped to Build Their Technology",
   projects: [
     {
-      image: require("./assets/images/edital.png"),
-      projectName: "Edital",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/unnamed.webp"),
+      projectName: "HeadacheFree App",
+      projectDesc: "A comprehensive solution designed to help users manage and alleviate headaches through personalized treatment plans and real-time monitoring.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://staging.edital.co.uk"
-        }
-        //  you can add extra buttons here.
+          name: "Visit Mobile App",
+          url: "https://play.google.com/store/apps/details?id=com.hrp.co"
+        },
+        // you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/unnamed (1).webp"),
+      projectName: "OptiLingo: Learn New Languages",
+      projectDesc: "An innovative language learning app that helps users achieve fluency through engaging and practical lessons, available in multiple languages.",
+      footerLink: [
+        {
+          name: "Visit Mobile App",
+          url: "https://play.google.com/store/apps/details?id=com.optilingo_app&hl=en&pli=1"
+        },
+        // you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/logo-color.png"),
       projectName: "Optilingo",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "A web-based platform providing language learning resources and tools to help users become fluent in new languages efficiently and effectively.",
       footerLink: [
         {
           name: "Visit Website",
@@ -238,6 +282,7 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -341,8 +386,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3131104203",
+  email_address: "aq579733@gmail.com"
 };
 
 // Twitter Section
